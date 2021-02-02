@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/cloud_sign?serverTimezone=GMT%2B8&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/xxxx?serverTimezone=GMT%2B8&characterEncoding=UTF-8
     username: root
-    password: 123456
+    password: xxxx
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
       initial-size: 5
@@ -39,8 +39,8 @@ spring:
             drop-table-allow: false
 
   mail:
-    username: 770000180@qq.com
-    password: ijmccgkzlczrbbie
+    username: xxxxxxxx
+    password: xxxxxxxx
     host: smtp.qq.com
     properties:
       mail:
